@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('loading').style.display =
         bool ? 'block' : 'none';
     },
-    
+
     customButtons: {
       addEventButton: {
         text: 'add event...',
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
               start: date,
               allDay: true
             });
-            alert('Great. Now, update your database...');
+            alert('Your Event Has Been Added');
           } else {
             alert('Invalid date.');
           }
