@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     displayEventTime: false, // don't show the time column in list view
 
+
     googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
 
     // Irish Holidays
@@ -51,5 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  calendar.render();
+  // calendar( ‘renderEvent’, event [, true ] )
+  calendar.render(true);
 });
